@@ -19,6 +19,8 @@ const Input = (value) => {
         console.log(value)
         if( value ){
             setbgrColor(value)
+        } else {
+            setbgrColor(' ')
         }
     };
 

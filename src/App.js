@@ -1,5 +1,6 @@
 import Button from './components/button'
 import Input from './components/input'
+import Counter from './components/counter'
 import './index.css'
 
 function App() {
@@ -23,6 +24,17 @@ function App() {
       <a href={link}>Vai a google link tramite props</a>
 
       <Input />
+      <div className='boxButton'>
+        <div>
+          <span>parte da 0</span>
+          <Counter countInit={0} />
+        </div>
+        <div>
+          <span>parte da 5</span>
+          <Counter countInit={5} />
+        </div>
+      </div>
+      
     </div>
 
     </>

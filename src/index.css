@@ -45,3 +45,24 @@ h1{
   align-items: center;
   gap: .5rem;
 }
+
+.counter{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #ff00dd 0%, #0d00ff 100%);
+  padding: .5rem;
+}
+
+.boxButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.h1{
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
